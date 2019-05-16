@@ -32,7 +32,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
     var mul = a * b;
-    var str = 'The product of ' + a + ' and ' + b + ' is ' + mul + '.'
+    var str = 'The product of ' + a + ' and ' + b + ' is ' + mul + '.';
     return [mul, str];
 }
 console.log(multiply(5,9));
@@ -54,7 +54,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+    
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
