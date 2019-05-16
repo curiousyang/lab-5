@@ -11,7 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
     var sumTotal = a + b;
-    var str = 'The sum of ' + a + ' and ' + b +' is 11.';
+    var str = 'The sum of ' + a + ' and ' + b +' is ' + sumTotal +'.';
     return [sumTotal, str];
 
 }
