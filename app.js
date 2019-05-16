@@ -15,7 +15,7 @@ function sum(a, b) { //eslint-disable-line
     return [sumTotal, str];
 
 }
-console.log(sum(4,7));
+
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
@@ -35,7 +35,7 @@ function multiply(a, b) { //eslint-disable-line
     var str = 'The product of ' + a + ' and ' + b + ' is ' + mul + '.';
     return [mul, str];
 }
-console.log(multiply(5,9));
+
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
 
@@ -61,7 +61,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     return [sumTotal, mul, str1, str2];
 }
 
-console.log(sumAndMultiply(4,7,5));
+
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
@@ -92,7 +92,7 @@ function sumArray(sumArr) { //eslint-disable-line
     return[sumTotal, str];
 }
 
-console.log(sumArray(testArray));
+
 
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
@@ -122,7 +122,7 @@ function multiplyArray(multArr) { //eslint-disable-line
     return[mul, str];
 
 }
-console.log(multiplyArray(testArray));
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
@@ -162,7 +162,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     return[mul, str];
 
 }
-console.log(multiplyAnyArray(testDynamicArray));
+
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyAnyArray(testDynamicArray);
 
